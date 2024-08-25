@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ececec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif; /* Añadido: Cambia la tipografía a una más moderna */
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+  width: 150px; /* Ajusta este valor según tus necesidades */
+  height: auto; /* Manteniendo la proporción de la imagen */
+  border-radius: 50%;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Añadido: Espaciado entre enlaces */
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none; /* Modificado: Elimina el subrayado */
+  font-size: 18px; /* Modificado: Ajuste de tamaño de fuente */
+  transition: color 0.3s ease; /* Añadido: Transición suave al cambiar el color */
+}
+
+.nav-links a:hover {
+  color: #f39c12; /* Modificado: Cambia el color del texto al pasar el cursor */
+  text-decoration: none; /* Modificado: Asegura que no se subraye al pasar el cursor */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 700px; /* Fija la altura del carrusel */
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%; /* Se ajusta al 100% del contenedor */
+}
+
+.carousel-item {
+  min-width: 100%;
+  height: 100%; /* Se ajusta al 100% del contenedor */
+}
+
+.carousel img {
+  width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+  height: 100%; /* La imagen ocupa el 100% de la altura del contenedor */
+  object-fit: cover; /* Cubre el área de la imagen sin distorsionarla */
+  display: block;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.imagen-debajo-carousel {
+  width: 1458px;
+  height: 500px;
+  display: block; /* Asegúrate de que la imagen sea un bloque para aplicar margen */
+    margin-top: -190px; /* Ajusta el valor según sea necesario */
+    margin-bottom: 20px; /* Opcional, para controlar el espacio debajo de la imagen */
+}
+
+
+.footer {
+  background-color: #f8f9fa; /* Ejemplo de color de fondo */
+  padding: 20px;
+  text-align: center;
+  margin-top: 125px; /* Añade margen superior */
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer .footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer .footer-links a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
