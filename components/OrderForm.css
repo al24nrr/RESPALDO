@@ -1,0 +1,76 @@
+/* Contenedor del formulario */
+.order-form-container {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto */
+    margin: 20px; /* Espacio alrededor del contenedor */
+    background-color: #ffffff; /* Fondo blanco para mejor visibilidad */
+    padding: 30px; /* Espacio interno */
+    border-radius: 10px; /* Bordes más redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para efecto de relieve */
+  }
+  
+  /* Título del formulario */
+  .order-form-container h1 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 28px; /* Tamaño del título */
+    color: #333; /* Color del texto */
+  }
+  
+  /* Espaciado entre campos de entrada */
+  .order-form-container div {
+    margin: 15px 0; /* Espacio entre cada campo de entrada */
+    width: 100%; /* Mantiene los campos del formulario dentro del contenedor */
+  }
+  
+  /* Estilo de etiquetas */
+  .order-form-container label {
+    font-weight: bold; /* Negrita para las etiquetas */
+    font-size: 16px; /* Tamaño de la letra */
+    color: #555; /* Color de las etiquetas */
+  }
+  
+  /* Estilo de campos de entrada */
+  .order-form-container input,
+  .order-form-container select {
+    padding: 12px; /* Espacio interno */
+    width: 100%; /* Ocupa el 100% del contenedor */
+    max-width: 350px; /* Ancho máximo del campo */
+    border: 1px solid #ddd; /* Borde del campo */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la letra en los campos */
+    transition: border 0.25s; /* Transición suave al interactuar */
+  }
+  
+  /* Estilo al hacer foco en los campos de entrada */
+  .order-form-container input:focus,
+  .order-form-container select:focus {
+    border-color: #007bff; /* Cambio de color del borde al enfocar */
+    outline: none; /* Sin contorno azul en el enfoque */
+  }
+  
+  /* Estilo del botón de enviar */
+  .order-form-container button {
+    padding: 12px 25px; /* Espacio interno del botón */
+    font-size: 18px; /* Tamaño del texto del botón */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s, transform 0.2s; /* Efecto de transición para el botón */
+  }
+  
+  /* Efecto al pasar el ratón por el botón */
+  .order-form-container button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón */
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar */
+  }
+  
+  /* Efecto al hacer clic en el botón */
+  .order-form-container button:active {
+    transform: scale(0.95); /* Efecto de achicamiento al hacer clic */
+  }
+  
+  

@@ -1,0 +1,12 @@
+.footer {
+    background-color: #272b33ff; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espacio interno en el footer */
+    text-align: center; /* Centra el texto */
+    position: relative; /* Asegura que el footer quede en su lugar */
+}
+
+.footer-content {
+    max-width: 1200px; /* Limita el ancho del contenido */
+    margin: 0 auto; /* Centra horizontalmente el contenido */
+}
