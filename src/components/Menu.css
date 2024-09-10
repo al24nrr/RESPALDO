@@ -1,0 +1,60 @@
+/* src/components/Menu.css */
+.menu-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.burger-card {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    vertical-align: top;
+    background-color: #f8f9fa; /* Fondo ligero para contraste */
+}
+
+.burger-img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+h2 {
+    font-family: "Verdana", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #212529;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.price {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #28a745;
+}
+
+/* Hover effect for interactivity */
+.burger-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
