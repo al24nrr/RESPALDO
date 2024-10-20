@@ -1,0 +1,45 @@
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0; /* Reduce aún más el padding vertical */
+}
+
+footer h5 {
+  font-weight: bold;
+  font-size: 0.85rem; /* Reduce el tamaño del encabezado */
+}
+
+footer p {
+  font-size: 0.8rem; /* Reduce el tamaño del texto del párrafo */
+  margin-bottom: 5px; /* Reduce el espacio debajo del párrafo */
+}
+
+footer .container {
+  padding: 10px 0; /* Reduce aún más el padding del contenedor */
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 3px; /* Reduce más el espacio entre los enlaces */
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 0.8rem; /* Reduce el tamaño de los enlaces */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .p-3 {
+  padding: 3px 0 !important; /* Reduce aún más el padding en la parte inferior */
+}
+
+footer .bg-dark {
+  font-size: 0.75rem; /* Reduce el tamaño del texto en la parte inferior del footer */
+}
